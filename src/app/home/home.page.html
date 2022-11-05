@@ -22,14 +22,14 @@
             <div class="user_back" [style.backgroundImage]="'url(assets/img/img1.png)'">
             </div>
         </div>
-        <div class="content_div">
+        <div class="content_div animated bounnceInup">
             <ion-label class="hello_lbl">Hello, Please Choose Your Doctor Type</ion-label>
             <ion-grid fixed>
                 <ion-row>
                     <ion-col size="6" (click)="goToDoctor()" *ngFor="let item of doctor">
                         <div class="col_div">
-                            <img class="doc_imgs" src="{{item.img}}">
-                            <ion-label class="doc_names">{{item.name}}</ion-label>
+                            <img src="{{item.img}}">
+                            <ion-label>{{item.name}}</ion-label>
                         </div>
                     </ion-col>
                 </ion-row>
