@@ -7,7 +7,6 @@ ion-content{
     position: relative;
     top: 40px;
     left: 20px;
-    
   }
   .pericon{
     margin-right: 5px;
@@ -15,8 +14,19 @@ ion-content{
   
   .menubtn{
     position: relative;
-    top: 20px;
-    left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  ion-button{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    text-align: center;
+  }
+  .mbutton{
+    margin-right: 50px;
   }
   ion-label {
     display: block;
