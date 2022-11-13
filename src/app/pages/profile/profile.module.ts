@@ -1,13 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NgModule, TemplateRef, } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
-import { IonicModule } from '@ionic/angular';
-
 import { ProfilePageRoutingModule } from './profile-routing.module';
-
 import { ProfilePage } from './profile.page';
-
+import { IonicModule } from '@ionic/angular';
 @NgModule({
   imports: [
     CommonModule,
@@ -18,3 +14,5 @@ import { ProfilePage } from './profile.page';
   declarations: [ProfilePage]
 })
 export class ProfilePageModule {}
+
+

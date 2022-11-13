@@ -1,5 +1,24 @@
 <ion-content>
+  <ion-button color="primary" routerLink="/home">
+    <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+  </ion-button>
   <div >
-    <img class="user_back" src="assets/img/img1.png" alt="profile">
+    <img class= "user_back" src="assets/img/img1.png" alt="profile">
   </div>
+  <div class="user_info">
+    <ion-input>User Name</ion-input>
+  </div>
+  <div class="user_info">
+      <ion-input>DOB</ion-input>
+  </div>
+  <div class="user_info">
+     <ion-input>Email ID</ion-input>
+    </div>
+    <div class="user_info">
+      <ion-input>Password</ion-input>
+  </div>
+  <div class="user_info">
+      <ion-input>Contact#</ion-input>
+  </div>
+  <ion-button class="updatebtn" routerLink="/updateprofile">Update</ion-button>
 </ion-content>
